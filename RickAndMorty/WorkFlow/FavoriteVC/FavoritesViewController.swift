@@ -75,16 +75,6 @@ extension FavoritesViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let delegateViewController = charactersViewController else {return}
         let detailsViewController = DetailsViewController()
-//        let vc2 = CharactersViewController()
-//        vc.delegate = vc2
-        
-//        guard let viewControllers = self.navigationController?.viewControllers else {return}
-//
-//        for aViewController in viewControllers {
-//            if aViewController is CharactersViewController {
-//                detailsViewController.delegate = aViewController as! CharacterDelegate
-//            }
-//        }
         
         detailsViewController.delegate = delegateViewController
         detailsViewController.config(character: likedCharsFromUD[indexPath.row])

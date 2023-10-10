@@ -39,12 +39,6 @@ class CharactersViewController: UIViewController {
     }
     
     var likedCharacters: [Result] = []
-//    {
-//        didSet {
-//            let data = try! JSONEncoder().encode(likedCharacters)
-//            UserdefaultStorage.shared.saveWithKey(data, forKey: .favoritesArray)
-//        }
-//    }
     
     var filteredCharacters: [Result] = []
     var isFiltered = false
@@ -71,7 +65,6 @@ class CharactersViewController: UIViewController {
         catch {
             
         }
-//        likedCharacters = likedCharsFromUD
     }
     
     func setupUI() {

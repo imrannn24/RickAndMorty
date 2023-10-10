@@ -92,7 +92,6 @@
 				2A84D0872AD58C3900102397 /* Assets.xcassets */,
 				2A84D08C2AD58C3900102397 /* Info.plist */,
 				2A84D0922AD58C6700102397 /* App */,
-				2A84D0932AD58C7C00102397 /* Resources */,
 				2A84D0942AD58E3800102397 /* Model */,
 				2A84D0992AD58EE300102397 /* WorkFlow */,
 			);
@@ -106,13 +105,6 @@
 				2A84D0802AD58C3600102397 /* SceneDelegate.swift */,
 			);
 			path = App;
-			sourceTree = "<group>";
-		};
-		2A84D0932AD58C7C00102397 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		2A84D0942AD58E3800102397 /* Model */ = {
